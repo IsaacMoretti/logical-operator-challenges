@@ -20,9 +20,16 @@ Goal:  Determines free shipping eligibility based on:
  🎯 Challenge 4: The Mysterious Name
 // A system collects user names, but some fields may be empty ("", null, undefined).
 // If the name is invalid, you should use:
-// - The user's nickname (if it exists)
-// - Otherwise, "Guest" + random number
+// The user's nickname (if it exists)
+// Otherwise, "Guest" + random number
 // How to do this with ||?
+
+ 🎯 Challenge 5: The Voice Assistant
+// A virtual assistant responds with:
+// The custom response from the database, OR
+// The default system response, OR
+// Silence (if nothing is found).
+
 
 (Future challenges can follow the same format!)
 
