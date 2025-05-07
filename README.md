@@ -111,4 +111,31 @@ Goal: Grant access only if:
 Where && comes in:
 // Ensures a fair and secure multiplayer experience.
 
+📝 Nullish Coalescing Operator (??) Challenges
+
+🎯 Challenge 1: Default Name
+Your variable name might be undefined or null.
+If it is, display "Anonymous" in the console.
+(Hint: Use ?? to assign the default value)
+
+🎯 Challenge 2: Coin Counter
+You have a variable coins that could be null or undefined.
+If it is, assume the person has 0 coins.
+How would you use ?? to solve this?
+
+🎯 Challenge 3: Favorite Color
+The variable favoriteColor might be undefined (not set).
+If it is, assign "blue" as the default color.
+
+🎯 Challenge 4: Check Age
+A variable age could be null (e.g., if the user didn’t provide it).
+Replace null with "Not provided" using ??.
+
+🎯 Challenge 5: Sound Preference
+The variable volume might be undefined (not configured).
+If it is, set defaultVolume to 50.
+How would you do this with ???
+
+
+
 (Future challenges will follow this format!)
